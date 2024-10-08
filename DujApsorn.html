@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- start row 1 -->
+        <div class="row">
+            <!-- start nav -->
+            <nav class="navbar navbar-expand-lg" style="background-color: #f8a48a;">
+                <div class="container-fluid">
+                    <a class="navbar-brand playfair-display" href="#">LOST THE PLOT</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active prompt-medium" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link prompt-medium" href="#">My Bookshelf</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link prompt-medium" href="#">Events</a>
+                            </li>
+
+                        </ul>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                            
+                        </form>
+
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- end nav -->
+
+
+        </div>
+        <!-- end row 1 -->
+
+        <!-- start row1 -->
+        <div class="row align-items-center margin">
+            <div class="col-md-6">
+                <img src="images/dujapsorn.jpg" alt="" class="img-fluid imgborder" width="250" height="250">
+            </div>
+            <div class="col-md-6 center">
+                <h1 class="prompt-medium">ดุจอัปสร </h1>
+                <h2 class="prompt-medium">นวนิยายชุด ดวงใจเทวพรหม</h2>
+                <h4 class="prompt-regular">เขียน: ณารา</h4>
+            </div>
+        </div>
+        <!-- end row1 -->
+
+        <!-- start row2 -->
+        <div class="row margin">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item tabBG" role="presentation">
+                    <button class="nav-link active prompt-medium" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane"
+                        aria-selected="true"><h4>Recommendations</h4></button>
+                </li>
+                <li class="nav-item tabBG" role="presentation">
+                    <button class="nav-link prompt-medium" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><h4>      
+                        Author Bio</h4></button>
+                </li>
+
+            </ul>
+            <div class="tab-content tabBG" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <p>"ความลับบังตา นางฟ้าจึงจำต้องเป็นนางมาร"</p>
+
+                    <p>“ดุจอัปสร” นิยายลำดับสี่ในชุดดวงใจเทวพรหม จากปลายปากกาของ “ณารา” 
+                    สานต่อเรื่องราวที่จะคลี่คลายปมความขัดแย้งระหว่าง “จุฑาเทพ” และ “เทวพรหม”</p>
+
+                    <p>เรื่องราวของ “ดุจอัปสร” ลูกสาวของวิไลรัมภา ที่สมัครงานที่บริษัทเจที พร็อพเพอร์ตี้ 
+                    โดยหวังว่าจะได้เข้าใกล้ “หม่อมหลวงรณภูมิ” ซึ่งเป็นลูกชายของคุณชายรณพีร์เพื่อแก้แค้นแทนผู้เป็นมารดา
+                    ทว่าคนที่เธอพบกลับเป็น “หม่อมหลวงอศิร จุฑาเทพ” บุตรชายคนโตของคุณชายธราธรซึ่งเคยช่วยชีวิตเธอไว้ 
+                    ทั้งยังเป็นคนที่เธอมอบหัวใจให้แต่เขาไม่ใช่คนที่มารดาของเธอต้องการ</p>
+
+                    <p>เพราะมีปมความแค้นรุ่นพ่อแม่ที่ต้องคลี่คลาย เรื่องนี้เหมาะกับคนที่ชื่นชอบความดราม่าเป็นอย่างมาก 
+                    แต่นอกจากความดราม่าแล้ว เราก็จะได้เห็นสายใยความผูกพันระหว่างพี่น้องจุฑาเทพ และทายาทเทวพรหมที่คอยซัพพอร์ตกันและกัน 
+                    
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0"><p>“ณารา” นามปากกาของ “ณิชา ตันติเฉลิมสิน” นักเขียนโรมานซ์ของสำนักพิมพ์พิมพ์คำ 
+                        ณารา เริ่มต้นเส้นทางการเป็นนักเขียนของเธอด้วยการอ่านหนังสือนิยาย และนิตยสารทุกเล่มที่มีอยู่ในบ้าน 
+                        จนเกิดเป็นความรัก ความชอบ และเกิดเป็นแรงบันดาลใจจนอยากจะเขียนนิยายของตัวเองขึ้นมาสักเล่มหนึ่ง
+                        
+                    <p>ณาราสามารถเขียนนิยายได้หลายแนว แต่โรมานซ์นั้นเป็นจุดจำหรือเอกลักษณ์ของนิยายณารา 
+                        เพราะไม่ว่าจะดราม่า คอมเมดี้ บู๊ มาเฟีย ประวัติศาสตร์ ทุกแนวจะต้องมีฉากโรมานซ์</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- end row2 -->
+        
+        <div class="row AuthorMargin center">
+            <h4 class="prompt-medium">Author's Book</h4>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/Tharatorn.jpg" alt="" class="img-fluid ABookImg">
+                <h6 class="prompt-medium center">คุณชายธราธร 
+                    <br>นวนิยายชุด สุภาพบุรุษจุฑาเทพ</h6>
+            </div>
+            <div class="col-md-4">
+                <img src="images/SixthSense.jpg" alt="" class="img-fluid ABookImg">
+                <h6 class="prompt-medium center">ญาณสื่อรัก <br>นวนิยายชุด The Sixth Sense</h6>
+            </div>
+            <div class="col-md-4">
+                <img src="images/risingsun.jpg" alt="" class="img-fluid ABookImg">
+                <h6 class="prompt-medium center">รอยฝัน ตะวันเดือด</h6>
+            </div>
+
+        </div>
+
+        <div class="row mmargin footer">
+            <div class="col-md-4">
+              <a href="index.html"><h5 class="prompt-medium">Home</h5></a>
+            </div>
+            <div class="col-md-4">
+              <h5 class="prompt-medium">About Us</h5>
+              <ul class="list-unstyled">
+                <li class="prompt-regular">Our Story</li>
+              </ul> 
+            </div>
+            <div class="col-md-4">
+              <h5 class="prompt-medium">Follow Us</h5>
+              <ul class="list-unstyled">
+                <li class="prompt-regular">Facebook</li>
+                <li class="prompt-regular">Instragram</li>
+                <li class="prompt-regular">X</li>
+              </ul>  
+            </div>
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
